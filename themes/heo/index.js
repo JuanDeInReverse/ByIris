@@ -386,7 +386,7 @@ const Layout404 = props => {
               <LazyImage
                 className='error-img h-60 md:h-full p-4'
                 src={
-                  'https://bu.dusays.com/2023/03/03/6401a7906aa4a.gif'
+                  'https://i.pinimg.com/originals/e4/53/da/e453da4f7ee1b6d4a41b92436ce00247.jpg'
                 }></LazyImage>
 
               {/* 右侧文字 */}
@@ -394,10 +394,10 @@ const Layout404 = props => {
                 <h1 className='error-title font-extrabold md:text-9xl text-7xl dark:text-white'>
                   404
                 </h1>
-                <div className='dark:text-white'>请尝试站内搜索寻找文章</div>
+                <div className='dark:text-white'>Perdón, este artículo no está disponible</div>
                 <Link href='/'>
                   <button className='bg-blue-500 py-2 px-4 text-white shadow rounded-lg hover:bg-blue-600 hover:shadow-md duration-200 transition-all'>
-                    回到主页
+                    Volver a la página principal
                   </button>
                 </Link>
               </div>

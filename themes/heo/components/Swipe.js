@@ -10,9 +10,12 @@ import { useEffect, useState } from 'react'
 export function Swipe({ items }) {
   const [activeIndex, setActiveIndex] = useState(0)
 
-  const handleClick = item => {
-    if (isBrowser) {
-      window.open(item?.url)
+  const handleClick = (item) => {
+    // Solo abre la URL si existe y no está vacía
+    if (item?.url) {
+      if (isBrowser) {
+        window.open(item.url, '_blank', 'noopener,noreferrer')
+      }
     }
   }
 
